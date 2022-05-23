@@ -19,5 +19,6 @@ public class MyUnitTest
     {
         int[] values = {10,10,30};
         assertEquals(50, Mathematics.sumOfValues(values));
+        assertEquals(0, Mathematics.sumOfValues(values));
     }
 }
