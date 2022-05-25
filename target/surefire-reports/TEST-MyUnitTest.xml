@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="MyUnitTest" time="0.007" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="MyUnitTest" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.13+8-LTS"/>
@@ -62,16 +62,16 @@
     <property name="java.vendor.version" value="Zulu11.52+13-CA"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="MyUnitTest" name="tcAvg1" time="0.005"/>
+  <testcase classname="MyUnitTest" name="tcAvg1" time="0.006"/>
   <testcase classname="MyUnitTest" name="tcAvg2" time="0"/>
   <testcase classname="MyUnitTest" name="tcAvg3" time="0"/>
   <testcase classname="MyUnitTest" name="tcMax1" time="0"/>
   <testcase classname="MyUnitTest" name="tcMax2" time="0"/>
   <testcase classname="MyUnitTest" name="tcMax3" time="0"/>
-  <testcase classname="MyUnitTest" name="tcMin1" time="0.001"/>
+  <testcase classname="MyUnitTest" name="tcMin1" time="0"/>
   <testcase classname="MyUnitTest" name="tcMin2" time="0"/>
   <testcase classname="MyUnitTest" name="tcMin3" time="0"/>
   <testcase classname="MyUnitTest" name="tcSum1" time="0"/>
   <testcase classname="MyUnitTest" name="tcSum2" time="0"/>
-  <testcase classname="MyUnitTest" name="tcSum3" time="0.001"/>
+  <testcase classname="MyUnitTest" name="tcSum3" time="0"/>
 </testsuite>
