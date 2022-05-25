@@ -22,6 +22,8 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build with Maven
+        run: mvn compiler:compile --file pom.xml
+      - name: Pack with maven
         run: mvn jar:jar --file pom.xml
       - run: mkdir staging && cp target/*.jar staging
       - uses: actions/upload-artifact@v2
