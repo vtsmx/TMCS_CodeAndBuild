@@ -5,7 +5,7 @@ public class Main
 {
     /**
      * Main method of programm
-     * @param args
+     * @param args xxx
      */
     public static void main(String[] args)
     {
